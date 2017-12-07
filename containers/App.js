@@ -8,7 +8,7 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 
-export default class App extends Component {
+class App extends React.Component {
     render () {
         return (
           <HashRouter>
@@ -29,3 +29,5 @@ export default class App extends Component {
         );
     }
 }
+
+export default App
