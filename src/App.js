@@ -7,6 +7,7 @@ import {
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
+import "./index.scss";
 
 class App extends React.Component {
     render () {
@@ -15,7 +16,7 @@ class App extends React.Component {
           <div>
             <h1>New SPA</h1>
             <ul className="header">
-              <li><NavLink to="/">Home</NavLink></li>
+              <li><NavLink exact to="/">Home</NavLink></li>
               <li><NavLink to="/about">About</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
             </ul>
